@@ -17,7 +17,7 @@ contract GarageManager {
         uint numberOfDoors; // Number of doors of the car
     }
 
-    // Custom error for handling invalid car index
+    // Custom error for handling invalid car index.
     error BadCarIndex(uint256 index);
 
     /**
