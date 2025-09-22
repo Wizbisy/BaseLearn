@@ -24,7 +24,7 @@ contract UnburnableToken {
 
     // Public function to claim tokens
     function claim() public {
-        // Check if all tokens have been claimed
+        // Check if all tokens have been claimed.
         if (totalClaimed >= totalSupply) revert AllTokensClaimed();
         
         // Check if the caller has already claimed tokens
